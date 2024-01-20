@@ -1,2 +1,3 @@
 # HackerRank-Data-Structures
-Java
+
+Neat Solutions for Hackerrank Data Structures in Java
