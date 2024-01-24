@@ -1,8 +1,7 @@
 public static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode llist, int data, int position) {
     SinglyLinkedListNode newNode = new SinglyLinkedListNode(data);
     if(position ==1){
-         newNode.next = llist;
-       
+        newNode.next = llist;
         return newNode;
     }
     SinglyLinkedListNode current = llist;
@@ -14,9 +13,8 @@ public static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode lli
     if(current == null){
         return llist;
     }
-        
     newNode.next = current.next;
     current.next = newNode;
-    
+
     return llist;
 }
